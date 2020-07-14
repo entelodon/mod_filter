@@ -1,0 +1,30 @@
+{
+  "name": "entelodon/mod_filtering",
+  "description": "Filtering Library",
+  "keywords": ["filtering"],
+  "homepage": "http://github.com/entelodon/mod_filter",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristian Tsivkov",
+      "email": "ktsivkov1997@gmail.com",
+      "homepage": "http://ktsivkov.eu"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^2.0",
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {"ModFilter\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  }
+}
